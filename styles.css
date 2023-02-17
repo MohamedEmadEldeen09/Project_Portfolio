@@ -3,6 +3,11 @@
     margin: 0;
     padding: 0;
 }
+@media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+    }
+  }
 /*header*/
 #header{
     display: grid;
